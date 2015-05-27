@@ -1,0 +1,30 @@
+//
+//  ShopHapplly-Prefix.pch
+//  ShopHapplly
+//
+//  Created by Hans Oscar on 19/05/15.
+//  Copyright (c) 2015 ShopHapplly. All rights reserved.
+//
+
+#ifndef ShopHapplly_ShopHapplly_Prefix_pch
+#define ShopHapplly_ShopHapplly_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AFNetworking.h"
+#import "AFHTTPRequestOperationManager.h"
+#import "AFHTTPRequestOperation.h"
+#import "AFNetworkReachabilityManager.h"
+#import "MBProgressHUD.h"
+#import "SHDataModel.h"
+#import "SHConstants.h"
+#import "SHServer.h"
+#import "SHUtility.h"
+#import "SHBaseModel.h"
+#import "SHCard.h"
+#import "SHBank.h"
+#import "SHCategory.h"
+#import "SHPlace.h"
+#import "SHMall.h"
+#endif
